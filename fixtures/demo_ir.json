@@ -1,0 +1,693 @@
+{
+  "version": "1.0.0",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "root": {
+    "id": "root",
+    "type": "page",
+    "html_tag": "div",
+    "text": null,
+    "attributes": {
+      "class": "page"
+    },
+    "bbox": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0
+    },
+    "style": {
+      "width": "1280px",
+      "minHeight": "900px",
+      "display": "flex",
+      "flexDirection": "column"
+    },
+    "css_classes": [
+      "ui2c-page-root",
+      "page"
+    ],
+    "layout": "flex",
+    "children": [
+      {
+        "id": "el-1",
+        "type": "header",
+        "html_tag": "header",
+        "text": null,
+        "attributes": {},
+        "bbox": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 0.078
+        },
+        "style": {
+          "backgroundColor": "#1a1a2e",
+          "padding": "16px 32px",
+          "display": "flex",
+          "flexDirection": "row"
+        },
+        "css_classes": [
+          "ui2c-header-1"
+        ],
+        "layout": "flex",
+        "children": [
+          {
+            "id": "el-2",
+            "type": "heading",
+            "html_tag": "h2",
+            "text": "TechFlow",
+            "attributes": {},
+            "bbox": {
+              "x": 0.025,
+              "y": 0.018,
+              "width": 0.12,
+              "height": 0.044
+            },
+            "style": {
+              "color": "#ffffff",
+              "fontSize": "24px",
+              "fontWeight": "bold"
+            },
+            "css_classes": [
+              "ui2c-heading-2"
+            ],
+            "layout": "flow",
+            "children": []
+          },
+          {
+            "id": "el-3",
+            "type": "nav",
+            "html_tag": "nav",
+            "text": null,
+            "attributes": {},
+            "bbox": {
+              "x": 0.55,
+              "y": 0.012,
+              "width": 0.43,
+              "height": 0.055
+            },
+            "style": {
+              "gap": "24px",
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row"
+            },
+            "css_classes": [
+              "ui2c-nav-3"
+            ],
+            "layout": "flex",
+            "children": [
+              {
+                "id": "el-4",
+                "type": "link",
+                "html_tag": "a",
+                "text": "Features",
+                "attributes": {
+                  "href": "#"
+                },
+                "bbox": {
+                  "x": 0.6,
+                  "y": 0.022,
+                  "width": 0.07,
+                  "height": 0.033
+                },
+                "style": {
+                  "color": "#c8c8d4",
+                  "fontSize": "15px"
+                },
+                "css_classes": [
+                  "ui2c-link-4"
+                ],
+                "layout": "flow",
+                "children": []
+              },
+              {
+                "id": "el-5",
+                "type": "link",
+                "html_tag": "a",
+                "text": "Pricing",
+                "attributes": {
+                  "href": "#"
+                },
+                "bbox": {
+                  "x": 0.69,
+                  "y": 0.022,
+                  "width": 0.06,
+                  "height": 0.033
+                },
+                "style": {
+                  "color": "#c8c8d4",
+                  "fontSize": "15px"
+                },
+                "css_classes": [
+                  "ui2c-link-5"
+                ],
+                "layout": "flow",
+                "children": []
+              },
+              {
+                "id": "el-6",
+                "type": "link",
+                "html_tag": "a",
+                "text": "About",
+                "attributes": {
+                  "href": "#"
+                },
+                "bbox": {
+                  "x": 0.77,
+                  "y": 0.022,
+                  "width": 0.05,
+                  "height": 0.033
+                },
+                "style": {
+                  "color": "#c8c8d4",
+                  "fontSize": "15px"
+                },
+                "css_classes": [
+                  "ui2c-link-6"
+                ],
+                "layout": "flow",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "el-7",
+            "type": "button",
+            "html_tag": "button",
+            "text": "Get Started",
+            "attributes": {
+              "type": "button"
+            },
+            "bbox": {
+              "x": 0.87,
+              "y": 0.015,
+              "width": 0.1,
+              "height": 0.048
+            },
+            "style": {
+              "backgroundColor": "#e94560",
+              "color": "#ffffff",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "borderRadius": "6px",
+              "padding": "10px 20px"
+            },
+            "css_classes": [
+              "ui2c-button-7"
+            ],
+            "layout": "flow",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "el-8",
+        "type": "section",
+        "html_tag": "section",
+        "text": null,
+        "attributes": {},
+        "bbox": {
+          "x": 0.0,
+          "y": 0.078,
+          "width": 1.0,
+          "height": 0.4
+        },
+        "style": {
+          "backgroundColor": "#16213e",
+          "textAlign": "center",
+          "padding": "80px 40px"
+        },
+        "css_classes": [
+          "ui2c-section-8"
+        ],
+        "layout": "flow",
+        "children": [
+          {
+            "id": "el-9",
+            "type": "heading",
+            "html_tag": "h2",
+            "text": "Build Better Software, Faster",
+            "attributes": {},
+            "bbox": {
+              "x": 0.15,
+              "y": 0.16,
+              "width": 0.7,
+              "height": 0.072
+            },
+            "style": {
+              "color": "#ffffff",
+              "fontSize": "48px",
+              "fontWeight": "bold",
+              "textAlign": "center"
+            },
+            "css_classes": [
+              "ui2c-heading-9"
+            ],
+            "layout": "flow",
+            "children": []
+          },
+          {
+            "id": "el-10",
+            "type": "text",
+            "html_tag": "p",
+            "text": "TechFlow streamlines your development workflow with intelligent automation and seamless collaboration tools.",
+            "attributes": {},
+            "bbox": {
+              "x": 0.2,
+              "y": 0.265,
+              "width": 0.6,
+              "height": 0.056
+            },
+            "style": {
+              "color": "#a0a8c0",
+              "fontSize": "18px",
+              "textAlign": "center",
+              "lineHeight": "1.6"
+            },
+            "css_classes": [
+              "ui2c-text-10"
+            ],
+            "layout": "flow",
+            "children": []
+          },
+          {
+            "id": "el-11",
+            "type": "button",
+            "html_tag": "button",
+            "text": "Start Free Trial",
+            "attributes": {
+              "type": "button"
+            },
+            "bbox": {
+              "x": 0.38,
+              "y": 0.36,
+              "width": 0.24,
+              "height": 0.06
+            },
+            "style": {
+              "backgroundColor": "#e94560",
+              "color": "#ffffff",
+              "fontSize": "18px",
+              "fontWeight": "600",
+              "borderRadius": "8px",
+              "padding": "16px 40px"
+            },
+            "css_classes": [
+              "ui2c-button-11"
+            ],
+            "layout": "flow",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "el-12",
+        "type": "section",
+        "html_tag": "section",
+        "text": null,
+        "attributes": {},
+        "bbox": {
+          "x": 0.0,
+          "y": 0.478,
+          "width": 1.0,
+          "height": 0.4
+        },
+        "style": {
+          "backgroundColor": "#f5f6fa",
+          "padding": "60px 40px",
+          "textAlign": "center",
+          "display": "flex",
+          "flexWrap": "wrap"
+        },
+        "css_classes": [
+          "ui2c-section-12"
+        ],
+        "layout": "flex",
+        "children": [
+          {
+            "id": "el-13",
+            "type": "heading",
+            "html_tag": "h2",
+            "text": "Why Choose TechFlow?",
+            "attributes": {},
+            "bbox": {
+              "x": 0.28,
+              "y": 0.5,
+              "width": 0.44,
+              "height": 0.045
+            },
+            "style": {
+              "color": "#1a1a2e",
+              "fontSize": "32px",
+              "fontWeight": "bold",
+              "textAlign": "center"
+            },
+            "css_classes": [
+              "ui2c-heading-13"
+            ],
+            "layout": "flow",
+            "children": []
+          },
+          {
+            "id": "el-14",
+            "type": "card",
+            "html_tag": "div",
+            "text": null,
+            "attributes": {},
+            "bbox": {
+              "x": 0.05,
+              "y": 0.575,
+              "width": 0.27,
+              "height": 0.27
+            },
+            "style": {
+              "backgroundColor": "#ffffff",
+              "borderRadius": "12px",
+              "padding": "32px 24px",
+              "boxShadow": "0 2px 12px rgba(0,0,0,0.08)",
+              "display": "flex",
+              "flexDirection": "column"
+            },
+            "css_classes": [
+              "ui2c-card-14",
+              "card"
+            ],
+            "layout": "flex",
+            "children": [
+              {
+                "id": "el-15",
+                "type": "icon",
+                "html_tag": "span",
+                "text": "\u26a1",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.08,
+                  "y": 0.595,
+                  "width": 0.04,
+                  "height": 0.038
+                },
+                "style": {
+                  "fontSize": "32px"
+                },
+                "css_classes": [
+                  "ui2c-icon-15"
+                ],
+                "layout": "flow",
+                "children": []
+              },
+              {
+                "id": "el-16",
+                "type": "heading",
+                "html_tag": "h3",
+                "text": "Lightning Fast",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.07,
+                  "y": 0.645,
+                  "width": 0.23,
+                  "height": 0.033
+                },
+                "style": {
+                  "color": "#1a1a2e",
+                  "fontSize": "20px",
+                  "fontWeight": "bold"
+                },
+                "css_classes": [
+                  "ui2c-heading-16"
+                ],
+                "layout": "flow",
+                "children": []
+              },
+              {
+                "id": "el-17",
+                "type": "text",
+                "html_tag": "p",
+                "text": "Optimized build pipeline that reduces compilation time by up to 10x compared to traditional tools.",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.07,
+                  "y": 0.695,
+                  "width": 0.23,
+                  "height": 0.072
+                },
+                "style": {
+                  "color": "#555566",
+                  "fontSize": "14px",
+                  "lineHeight": "1.5"
+                },
+                "css_classes": [
+                  "ui2c-text-17"
+                ],
+                "layout": "flow",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "el-18",
+            "type": "card",
+            "html_tag": "div",
+            "text": null,
+            "attributes": {},
+            "bbox": {
+              "x": 0.365,
+              "y": 0.575,
+              "width": 0.27,
+              "height": 0.27
+            },
+            "style": {
+              "backgroundColor": "#ffffff",
+              "borderRadius": "12px",
+              "padding": "32px 24px",
+              "boxShadow": "0 2px 12px rgba(0,0,0,0.08)",
+              "display": "flex",
+              "flexDirection": "column"
+            },
+            "css_classes": [
+              "ui2c-card-18",
+              "card"
+            ],
+            "layout": "flex",
+            "children": [
+              {
+                "id": "el-19",
+                "type": "icon",
+                "html_tag": "span",
+                "text": "\ud83d\udd12",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.395,
+                  "y": 0.595,
+                  "width": 0.04,
+                  "height": 0.038
+                },
+                "style": {
+                  "fontSize": "32px"
+                },
+                "css_classes": [
+                  "ui2c-icon-19"
+                ],
+                "layout": "flow",
+                "children": []
+              },
+              {
+                "id": "el-20",
+                "type": "heading",
+                "html_tag": "h3",
+                "text": "Secure by Default",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.385,
+                  "y": 0.645,
+                  "width": 0.23,
+                  "height": 0.033
+                },
+                "style": {
+                  "color": "#1a1a2e",
+                  "fontSize": "20px",
+                  "fontWeight": "bold"
+                },
+                "css_classes": [
+                  "ui2c-heading-20"
+                ],
+                "layout": "flow",
+                "children": []
+              },
+              {
+                "id": "el-21",
+                "type": "text",
+                "html_tag": "p",
+                "text": "Enterprise-grade security with automated vulnerability scanning and real-time threat monitoring.",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.385,
+                  "y": 0.695,
+                  "width": 0.23,
+                  "height": 0.072
+                },
+                "style": {
+                  "color": "#555566",
+                  "fontSize": "14px",
+                  "lineHeight": "1.5"
+                },
+                "css_classes": [
+                  "ui2c-text-21"
+                ],
+                "layout": "flow",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "el-22",
+            "type": "card",
+            "html_tag": "div",
+            "text": null,
+            "attributes": {},
+            "bbox": {
+              "x": 0.68,
+              "y": 0.575,
+              "width": 0.27,
+              "height": 0.27
+            },
+            "style": {
+              "backgroundColor": "#ffffff",
+              "borderRadius": "12px",
+              "padding": "32px 24px",
+              "boxShadow": "0 2px 12px rgba(0,0,0,0.08)",
+              "display": "flex",
+              "flexDirection": "column"
+            },
+            "css_classes": [
+              "ui2c-card-22",
+              "card"
+            ],
+            "layout": "flex",
+            "children": [
+              {
+                "id": "el-23",
+                "type": "icon",
+                "html_tag": "span",
+                "text": "\ud83e\udd1d",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.71,
+                  "y": 0.595,
+                  "width": 0.04,
+                  "height": 0.038
+                },
+                "style": {
+                  "fontSize": "32px"
+                },
+                "css_classes": [
+                  "ui2c-icon-23"
+                ],
+                "layout": "flow",
+                "children": []
+              },
+              {
+                "id": "el-24",
+                "type": "heading",
+                "html_tag": "h3",
+                "text": "Team Collaboration",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.7,
+                  "y": 0.645,
+                  "width": 0.23,
+                  "height": 0.033
+                },
+                "style": {
+                  "color": "#1a1a2e",
+                  "fontSize": "20px",
+                  "fontWeight": "bold"
+                },
+                "css_classes": [
+                  "ui2c-heading-24"
+                ],
+                "layout": "flow",
+                "children": []
+              },
+              {
+                "id": "el-25",
+                "type": "text",
+                "html_tag": "p",
+                "text": "Real-time collaboration with built-in code review, project management, and team chat.",
+                "attributes": {},
+                "bbox": {
+                  "x": 0.7,
+                  "y": 0.695,
+                  "width": 0.23,
+                  "height": 0.072
+                },
+                "style": {
+                  "color": "#555566",
+                  "fontSize": "14px",
+                  "lineHeight": "1.5"
+                },
+                "css_classes": [
+                  "ui2c-text-25"
+                ],
+                "layout": "flow",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "el-26",
+        "type": "footer",
+        "html_tag": "footer",
+        "text": null,
+        "attributes": {},
+        "bbox": {
+          "x": 0.0,
+          "y": 0.878,
+          "width": 1.0,
+          "height": 0.122
+        },
+        "style": {
+          "backgroundColor": "#0f0f23",
+          "padding": "40px 32px",
+          "textAlign": "center"
+        },
+        "css_classes": [
+          "ui2c-footer-26"
+        ],
+        "layout": "flow",
+        "children": [
+          {
+            "id": "el-27",
+            "type": "text",
+            "html_tag": "p",
+            "text": "\u00a9 2024 TechFlow. All rights reserved.",
+            "attributes": {},
+            "bbox": {
+              "x": 0.3,
+              "y": 0.93,
+              "width": 0.4,
+              "height": 0.033
+            },
+            "style": {
+              "color": "#666680",
+              "fontSize": "14px",
+              "textAlign": "center"
+            },
+            "css_classes": [
+              "ui2c-text-27"
+            ],
+            "layout": "flow",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "style_tokens": {},
+  "assets": [],
+  "diagnostics": []
+}

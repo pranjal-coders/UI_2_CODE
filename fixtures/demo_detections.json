@@ -1,0 +1,213 @@
+{
+  "viewport": { "width": 1280, "height": 900 },
+  "elements": [
+    {
+      "id": "el-1",
+      "type": "header",
+      "bbox": { "x": 0.0, "y": 0.0, "width": 1.0, "height": 0.078 },
+      "style": { "backgroundColor": "#1a1a2e", "padding": "16px 32px" },
+      "confidence": 0.95
+    },
+    {
+      "id": "el-2",
+      "type": "heading",
+      "text": "TechFlow",
+      "bbox": { "x": 0.025, "y": 0.018, "width": 0.12, "height": 0.044 },
+      "style": { "color": "#ffffff", "fontSize": "24px", "fontWeight": "bold" },
+      "confidence": 0.92
+    },
+    {
+      "id": "el-3",
+      "type": "nav",
+      "bbox": { "x": 0.55, "y": 0.012, "width": 0.43, "height": 0.055 },
+      "style": { "gap": "24px", "alignItems": "center" },
+      "confidence": 0.88
+    },
+    {
+      "id": "el-4",
+      "type": "link",
+      "text": "Features",
+      "bbox": { "x": 0.60, "y": 0.022, "width": 0.07, "height": 0.033 },
+      "style": { "color": "#c8c8d4", "fontSize": "15px" },
+      "confidence": 0.85
+    },
+    {
+      "id": "el-5",
+      "type": "link",
+      "text": "Pricing",
+      "bbox": { "x": 0.69, "y": 0.022, "width": 0.06, "height": 0.033 },
+      "style": { "color": "#c8c8d4", "fontSize": "15px" },
+      "confidence": 0.85
+    },
+    {
+      "id": "el-6",
+      "type": "link",
+      "text": "About",
+      "bbox": { "x": 0.77, "y": 0.022, "width": 0.05, "height": 0.033 },
+      "style": { "color": "#c8c8d4", "fontSize": "15px" },
+      "confidence": 0.85
+    },
+    {
+      "id": "el-7",
+      "type": "button",
+      "text": "Get Started",
+      "bbox": { "x": 0.87, "y": 0.015, "width": 0.10, "height": 0.048 },
+      "style": { "backgroundColor": "#e94560", "color": "#ffffff", "fontSize": "14px", "fontWeight": "600", "borderRadius": "6px", "padding": "10px 20px" },
+      "confidence": 0.90
+    },
+    {
+      "id": "el-8",
+      "type": "section",
+      "bbox": { "x": 0.0, "y": 0.078, "width": 1.0, "height": 0.40 },
+      "style": { "backgroundColor": "#16213e", "textAlign": "center", "padding": "80px 40px" },
+      "confidence": 0.90
+    },
+    {
+      "id": "el-9",
+      "type": "heading",
+      "text": "Build Better Software, Faster",
+      "bbox": { "x": 0.15, "y": 0.16, "width": 0.70, "height": 0.072 },
+      "style": { "color": "#ffffff", "fontSize": "48px", "fontWeight": "bold", "textAlign": "center" },
+      "confidence": 0.93
+    },
+    {
+      "id": "el-10",
+      "type": "text",
+      "text": "TechFlow streamlines your development workflow with intelligent automation and seamless collaboration tools.",
+      "bbox": { "x": 0.20, "y": 0.265, "width": 0.60, "height": 0.056 },
+      "style": { "color": "#a0a8c0", "fontSize": "18px", "textAlign": "center", "lineHeight": "1.6" },
+      "confidence": 0.88
+    },
+    {
+      "id": "el-11",
+      "type": "button",
+      "text": "Start Free Trial",
+      "bbox": { "x": 0.38, "y": 0.36, "width": 0.24, "height": 0.06 },
+      "style": { "backgroundColor": "#e94560", "color": "#ffffff", "fontSize": "18px", "fontWeight": "600", "borderRadius": "8px", "padding": "16px 40px" },
+      "confidence": 0.92
+    },
+    {
+      "id": "el-12",
+      "type": "section",
+      "bbox": { "x": 0.0, "y": 0.478, "width": 1.0, "height": 0.40 },
+      "style": { "backgroundColor": "#f5f6fa", "padding": "60px 40px", "textAlign": "center" },
+      "confidence": 0.88
+    },
+    {
+      "id": "el-13",
+      "type": "heading",
+      "text": "Why Choose TechFlow?",
+      "bbox": { "x": 0.28, "y": 0.50, "width": 0.44, "height": 0.045 },
+      "style": { "color": "#1a1a2e", "fontSize": "32px", "fontWeight": "bold", "textAlign": "center" },
+      "confidence": 0.90
+    },
+    {
+      "id": "el-14",
+      "type": "card",
+      "bbox": { "x": 0.05, "y": 0.575, "width": 0.27, "height": 0.27 },
+      "style": { "backgroundColor": "#ffffff", "borderRadius": "12px", "padding": "32px 24px", "boxShadow": "0 2px 12px rgba(0,0,0,0.08)" },
+      "confidence": 0.87
+    },
+    {
+      "id": "el-15",
+      "type": "icon",
+      "text": "\u26a1",
+      "bbox": { "x": 0.08, "y": 0.595, "width": 0.04, "height": 0.038 },
+      "style": { "fontSize": "32px" },
+      "confidence": 0.70
+    },
+    {
+      "id": "el-16",
+      "type": "heading",
+      "text": "Lightning Fast",
+      "bbox": { "x": 0.07, "y": 0.645, "width": 0.23, "height": 0.033 },
+      "style": { "color": "#1a1a2e", "fontSize": "20px", "fontWeight": "bold" },
+      "confidence": 0.88
+    },
+    {
+      "id": "el-17",
+      "type": "text",
+      "text": "Optimized build pipeline that reduces compilation time by up to 10x compared to traditional tools.",
+      "bbox": { "x": 0.07, "y": 0.695, "width": 0.23, "height": 0.072 },
+      "style": { "color": "#555566", "fontSize": "14px", "lineHeight": "1.5" },
+      "confidence": 0.85
+    },
+    {
+      "id": "el-18",
+      "type": "card",
+      "bbox": { "x": 0.365, "y": 0.575, "width": 0.27, "height": 0.27 },
+      "style": { "backgroundColor": "#ffffff", "borderRadius": "12px", "padding": "32px 24px", "boxShadow": "0 2px 12px rgba(0,0,0,0.08)" },
+      "confidence": 0.87
+    },
+    {
+      "id": "el-19",
+      "type": "icon",
+      "text": "\ud83d\udd12",
+      "bbox": { "x": 0.395, "y": 0.595, "width": 0.04, "height": 0.038 },
+      "style": { "fontSize": "32px" },
+      "confidence": 0.70
+    },
+    {
+      "id": "el-20",
+      "type": "heading",
+      "text": "Secure by Default",
+      "bbox": { "x": 0.385, "y": 0.645, "width": 0.23, "height": 0.033 },
+      "style": { "color": "#1a1a2e", "fontSize": "20px", "fontWeight": "bold" },
+      "confidence": 0.88
+    },
+    {
+      "id": "el-21",
+      "type": "text",
+      "text": "Enterprise-grade security with automated vulnerability scanning and real-time threat monitoring.",
+      "bbox": { "x": 0.385, "y": 0.695, "width": 0.23, "height": 0.072 },
+      "style": { "color": "#555566", "fontSize": "14px", "lineHeight": "1.5" },
+      "confidence": 0.85
+    },
+    {
+      "id": "el-22",
+      "type": "card",
+      "bbox": { "x": 0.68, "y": 0.575, "width": 0.27, "height": 0.27 },
+      "style": { "backgroundColor": "#ffffff", "borderRadius": "12px", "padding": "32px 24px", "boxShadow": "0 2px 12px rgba(0,0,0,0.08)" },
+      "confidence": 0.87
+    },
+    {
+      "id": "el-23",
+      "type": "icon",
+      "text": "\ud83e\udd1d",
+      "bbox": { "x": 0.71, "y": 0.595, "width": 0.04, "height": 0.038 },
+      "style": { "fontSize": "32px" },
+      "confidence": 0.70
+    },
+    {
+      "id": "el-24",
+      "type": "heading",
+      "text": "Team Collaboration",
+      "bbox": { "x": 0.70, "y": 0.645, "width": 0.23, "height": 0.033 },
+      "style": { "color": "#1a1a2e", "fontSize": "20px", "fontWeight": "bold" },
+      "confidence": 0.88
+    },
+    {
+      "id": "el-25",
+      "type": "text",
+      "text": "Real-time collaboration with built-in code review, project management, and team chat.",
+      "bbox": { "x": 0.70, "y": 0.695, "width": 0.23, "height": 0.072 },
+      "style": { "color": "#555566", "fontSize": "14px", "lineHeight": "1.5" },
+      "confidence": 0.85
+    },
+    {
+      "id": "el-26",
+      "type": "footer",
+      "bbox": { "x": 0.0, "y": 0.878, "width": 1.0, "height": 0.122 },
+      "style": { "backgroundColor": "#0f0f23", "padding": "40px 32px", "textAlign": "center" },
+      "confidence": 0.90
+    },
+    {
+      "id": "el-27",
+      "type": "text",
+      "text": "\u00a9 2024 TechFlow. All rights reserved.",
+      "bbox": { "x": 0.30, "y": 0.93, "width": 0.40, "height": 0.033 },
+      "style": { "color": "#666680", "fontSize": "14px", "textAlign": "center" },
+      "confidence": 0.88
+    }
+  ]
+}
