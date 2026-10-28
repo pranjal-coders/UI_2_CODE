@@ -8,6 +8,8 @@ import {
   VerificationResult,
 } from '../types/api';
 
+const API_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/+$/, '');
+
 async function handleResponse<T>(res: Response, endpoint: string): Promise<T> {
   if (!res.ok) {
     let message = `Request to ${endpoint} failed with status ${res.status} (${res.statusText})`;
@@ -40,7 +42,7 @@ async function handleResponse<T>(res: Response, endpoint: string): Promise<T> {
 
 export async function checkHealth(): Promise<HealthResponse> {
   try {
-    const res = await fetch('/api/health');
+    const res = await fetch(`${API_BASE}/api/health`);
     return await handleResponse<HealthResponse>(res, '/api/health');
   } catch (err: any) {
     throw new Error(`Health check failed: ${err.message || err}`);
@@ -48,7 +50,7 @@ export async function checkHealth(): Promise<HealthResponse> {
 }
 
 export async function fetchDemoImage(): Promise<File> {
-  const res = await fetch('/api/demo-image');
+  const res = await fetch(`${API_BASE}/api/demo-image`);
   if (!res.ok) {
     throw new Error('Failed to load bundled demo screenshot fixture.');
   }
@@ -63,7 +65,7 @@ export async function analyzeImage(file: File, provider?: string): Promise<Analy
     formData.append('provider', provider);
   }
 
-  const res = await fetch('/api/analyze', {
+  const res = await fetch(`${API_BASE}/api/analyze`, {
     method: 'POST',
     body: formData,
   });
@@ -74,7 +76,7 @@ export async function analyzeImage(file: File, provider?: string): Promise<Analy
 export async function compileDetections(
   request: CompileRequest
 ): Promise<CompileResponse> {
-  const res = await fetch('/api/compile', {
+  const res = await fetch(`${API_BASE}/api/compile`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -93,7 +95,7 @@ export async function verifyOutput(
   formData.append('source_image', sourceImage, 'source.png');
   formData.append('generated_image', generatedImage, 'generated.png');
 
-  const res = await fetch('/api/verify', {
+  const res = await fetch(`${API_BASE}/api/verify`, {
     method: 'POST',
     body: formData,
   });
@@ -102,7 +104,7 @@ export async function verifyOutput(
 }
 
 export async function refineIR(request: RefineRequest): Promise<RefineResponse> {
-  const res = await fetch('/api/refine', {
+  const res = await fetch(`${API_BASE}/api/refine`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
